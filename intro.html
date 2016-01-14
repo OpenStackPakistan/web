@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>PTA Learning Initiative: Cloud</title>
+
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/customizedStyle.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+<script src="Content/jquery-1.12.0.min.js" ></script>
+</head>
+<body>
+
+    <!--*****************************-->
+    <!--OpenStack Section-->
+    <!--*****************************-->
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="text-capitalize"><span class="text-danger openStackBold">PTA Learning Initiatives</h1>
+            </div>
+            <div class="col-lg-6">
+                <ul class="nav navbar-nav pull-right nav-pills headerSocialIcons">
+                    <li><a href="https://www.facebook.com/OpenStackPakistan/"><img src="Images/facebook_Icon.ico" /></a></li>
+                    <li><a href="https://twitter.com/openstack_isb"><img src="Images/twitter_Icon.ico" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <br />
+    <!--*****************************-->
+    <!--Navigation Section-->
+    <!--*****************************-->
+
+    <section id="navigation" class="container">
+
+    </section>
+    <script>
+    $("#navigation").load('header.html', function(){
+      $("#navIntro").addClass('listItemDarkRedColor');
+    });
+    </script>
+    <!--*****************************-->
+    <!--jumbotron Section-->
+    <!--*****************************-->
+
+    <div class="container">
+        <div class="row">
+            <div class="jumboImg">
+                <img src="Images/openStackJumbotron.png" />
+            </div>
+        </div>
+    </div>
+
+
+    <!--*****************************-->
+    <!--Content Section-->
+    <!--*****************************-->
+
+    <section class="container">
+        <div class="row">
+            <!--*********************-->
+            <!--Section Divided Into 8-Coloumns-->
+            <!--*********************-->
+
+            <div class="col-md-8">
+                <h1 class="text-capitalize latest"><span class="NewsBold">Introduction</span> </h1>
+                <div class="page-header_Customized_1">
+                   <p align="justify">The IT and networking industry are currently looking at private cloud and Software Defined Networking (SDN) as the two most exciting trends. All indicators are that ISPs, network and Telecom operators as well as any large to mid-size enterprise will move to internalize these new paradigm, within the next two-to-three years.
+
+<p align="justify">This excitement stems from the flexibility, security, cost-effectiveness, and rapid service delivery that is possible from a customizable private cloud. While a private cloud provides secure and scalable compute power for any enterprise needs, the ability to manage and setup such clouds requires extensive expertise in managing the several different components of a cloud: compute instances, their images, storage, networking, and monitoring. Public cloud offerings provide an expensive solution, an order of magnitude more than Private cloud according to latest market research [1], while commercial Private cloud solutions result in possible vendor lock-in.
+
+<p align="justify">OpenStack is a project that provides a suite of open-source software and APIs to manage cloud setup, orchestration of its components, dynamic monitoring and control of any private cloud. This project takes an open-source view to allow innovation, and the OpenStack foundation pushes aggressively to support several different implementations of its core components to prevent vendor lock-in. It supports SDN solutions, like PLUMgrid [2], as plugins to its core networking API, thus allowing enterprises the flexibility to rapidly deliver new services over their infrastructure.
+
+
+
+
+<p class="MsoNormal" style="text-align: justify; line-height: 150%; margin-top: 0; margin-bottom: 0">&nbsp;</p>
+<p class="MsoNormal" style="line-height: 150%; margin-top: 0; margin-bottom: 0" align="justify">
+<font face="Arial" size="2" color="#000000"><span style="line-height: 125%">[1] Cloud Price
+Index, 451 research, April 2015</span></font></p>
+<p class="MsoNormal" style="line-height: 150%; margin-top: 0; margin-bottom: 0" align="justify">
+<font face="Arial"><span style="line-height: 125%">
+<font size="2" color="#000000">[2] </font>
+</span>
+<a href="https://www.openstack.org/marketplace/training/plumgrid-2/94" style="text-decoration: underline; text-underline: single">
+<span style="line-height: 125%; "><font size="2">
+https://www.openstack.org/marketplace/training/plumgrid-2/94</font></span></a></font></p>
+
+<br><br>
+
+
+
+                </div>
+                <!-- Team Section-->
+                <h1 class="text-capitalize latest">  <span class="NewsBold">Team</span> </h1>
+                <div class="page-header_Customized_1">
+
+                    <div class="row">
+                    <div class="col-md-4"><b>Dr. Ismail Shah </b><br>Chairman PTA</div>
+                    <div class="col-md-4"><b>Wasi-Ullah Khan</b><br>Director PTA</div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-4"><b>Affan Syed, Zaafar Ahmed,
+					Muhammad Zaheer, Hussain Zaheer</b><br>Plumgrid Inc.</div>
+                    <div class="col-md-4"><b>Dr. Adnan Iqbal</b><br>Namal College</div>
+
+
+                    </div>
+                  </div>
+                <!-- #end Team Section-->
+
+            </div> <!--#end col-md-8-->
+            <br />
+
+            <!--*********************-->
+            <!--RedBlock Section-->
+            <!--*********************-->
+
+            <div id="upComing" class="col-md-4">
+
+            </div><!--#end col-md-4-->
+            <script>$("#upComing").load('upcoming.html');</script>
+            <!--*********************-->
+            <!--#end RedBlock Section-->
+            <!--*********************-->
+        </div>   <!--#row-->
+    </section>  <!--#section-->
+
+    <br />
+    <br />
+
+    <!--*****************************-->
+    <!--Footer Section-->
+    <!--*****************************-->
+
+    <div class="container-fluid">
+        <div class="row bg-well-partners">
+            <div class="col-md-12">
+                <h1 class="openStackBold text-center text-danger">Our Partners</h1>
+            </div>
+
+            <div class="col-md-12">
+                <br />
+                <br />
+            </div>
+
+           <!-- <div class="col-md-offset-5 col-md-2">
+                <a href="#"><span><img class="plumGrid img-responsive" src="Images/plumgrid_logo.png" /></a>
+
+            </div> -->
+
+
+            <div class="col-md-12">
+
+                <div class="col-md-offset-4 col-md-2" style="margin-bottom:15px">
+                    <a href="#"><span><img class="img-responsive" src="Images/plumgrid_logo.png" /></span></a>
+                </div>
+
+                <div class="col-md-2" style="margin-bottom:15px">
+                    <a href="#"><span><img class="img-responsive" src="Images/awal_logo.png" style="height:60px" /></span></a>
+                </div>
+
+                <div class="col-md-2" style="margin-left:-5%"style="margin-bottom:15px">
+                    <a href="#"><span><img class="img-responsive" src="Images/open-logo_hd_Islamabad.png" style="height:60px" /></span></a>
+                </div>
+
+            </div>
+            <br />
+        </div>
+    </div>
+    <br />
+    <br />
+    <!--*****************************-->
+    <!--footerSection-->
+    <!--*****************************-->
+
+    <section id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-grey">All Rights Reserved. Pakistan Telecommunication Authority 2015 </p>
+                </div>
+
+                <div class="col-md-6">
+                    <ul class="nav navbar-nav pull-right">
+                        <li><a href="https://www.facebook.com/OpenStackPakistan/"><img src="Images/facebook-5.ico" /></a></li>
+                        <li><a href="https://twitter.com/openstack_isb"><img src="Images/twitter-5.ico" /></a></li>
+                    </ul>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  try {
+    var pageTracker = _gat._getTracker("UA-72401712-1");
+    pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+
+<!-- Google Analytics --> </body>
+</html>

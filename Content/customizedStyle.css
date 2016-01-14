@@ -1,0 +1,212 @@
+﻿/***************************************************/
+/*OpenStack Header Section Customized Styles*/
+
+/*Default body Section Styles*/
+/***************************************************/
+.row{
+  margin-top:15px;
+}
+body {
+    margin:0px;
+    padding:0px;
+    background-color:#f3f3f3;
+}
+/*********************/
+/*OpenStack Word Header*/
+/*********************/
+.openStackBold{
+    font-size:32px;
+    font-weight:bolder;
+    font-family:'Arial';
+}
+/*********************/
+/*socailIcons(fb,g+) OpenStack header*/
+/*********************/
+.headerSocialIcons li img{
+    width:30px;
+    height:30px;
+}
+/*********************/
+/*#END*/
+/*********************/
+
+/***************************************************/
+/*Navigation Section Customized Styles*/
+/***************************************************/
+
+/*********************/
+/*unOrdererd List Anchor Item */
+/*********************/
+.text-black li a {
+
+  /*color for each listItem*/
+  color: #080707;
+  /*padding each list Item*/
+  padding-left:25px;
+}
+
+#navigationHeader li a:hover{
+    /*backgroundColor on Hover li a item*/
+    background-color:#fc0606;
+}
+
+.listItemDarkRedColor{
+    background-color:#c10000;
+    height:50px;
+    border-radius:3px;
+    margin-left:8px;
+}
+li.listItemDarkRedColor a{
+    color:white;
+    font-family:'Arial';
+}
+.searchIcon{
+    margin-top:10px;
+    margin-left:20px;
+    padding-left:100px;
+    color:#000000;
+}
+
+.page-header_Customized {
+  padding-bottom: 10px;
+  border-bottom: 2.5px solid #808080;
+}
+/*#END*/
+
+/***************************************************/
+/*Floating Section*/
+/***************************************************/
+/*********************/
+/*Floats + Clearfix floats*/
+/*********************/
+.floatRight{
+    float:right;
+}
+
+.floatleft{
+    float:left;
+}
+
+.clearFixFloat{
+    clear:both;
+}
+/*********************/
+/*#END*/
+/*********************/
+
+/***************************************************/
+/*Jumbotron Section Customized Styles*/
+/***************************************************/
+.jumboImg img{
+    width:100%;
+    height:auto;
+    margin-left:2%;
+    margin-right:auto;
+    margin-bottom:10px;
+}
+/*********************/
+/*#END*/
+/*********************/
+
+/***************************************************/
+/*Red Block Section Customized Styles*/
+/***************************************************/
+
+.upComingWorkshop{
+    padding-top:20px;
+    padding-left:15px;
+    font-family:'Arial';
+    margin-bottom:20px;
+    color:white;
+}
+
+.worksShop{
+    font-weight:bolder;
+    font-family:'Arial';
+    color:white;
+}
+
+.latest{
+    color:#c10000;
+    font-family:'Arial';
+}
+.NewsBold{
+    font-size:34px;
+    font-weight:bolder;
+    color:#c10000;
+    font-family:'Arial';
+}
+
+
+.dates{
+    padding-left:20px;
+    font-weight:bolder;
+    color:white;
+}
+
+.dateData{
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:10px;
+    font-family:'Arial';
+    /*margin-bottom:20px;*/
+    color:white;
+}
+
+
+/***************************************************/
+/*Section Divide into 8 Columns Section*/
+/***************************************************/
+
+.anchorWhiteColor{
+    color:white;
+}
+.anhorTagDetailsAndRegister{
+    margin-left:50%;
+}
+
+.line{
+    margin-left:3px;
+    margin-right:5px;
+    border-left: 2px solid #eee;
+}
+
+.padRedBlockFromBottom{
+    padding-bottom:20px;
+}
+
+.readMore{
+    font-family:'Arial';
+    font-size:24px;
+    font-weight:normal;
+    color:#c10000;
+}
+
+.page-header_Customized_1 {
+  padding-bottom: 20px;
+  margin-top:20px;
+  border-bottom: 2.5px solid #7c7878;
+}
+
+
+/***************************************************/
+/*Our Partners Section*/
+/***************************************************/
+
+.bg-well-partners{
+    background-color:#ccc8c8;
+    padding-top:10px;
+    padding-bottom:30px;
+    margin-bottom:10px;
+}
+
+
+
+/***************************************************/
+/*Footers Section*/
+/***************************************************/
+
+.text-grey{
+    margin-left:20px;
+    color:#726e6e;
+}
